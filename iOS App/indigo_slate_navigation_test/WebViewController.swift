@@ -1,9 +1,9 @@
 //
 //  WebViewController.swift
-//  Roxa
+//  Indigo Slate Test
 //
-//  Created by Jaxon Stevens on 10/5/17.
-//  Copyright © 2017 Jaxon Stevens. All rights reserved.
+//  Created by Jaxon Stevens
+//  Copyright © 2018 Jaxon Stevens. All rights reserved.
 //
 import UIKit
 import WebKit
@@ -34,11 +34,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
     
     
     func userContentController(_ userContentController: WKUserContentController!, didReceive message: WKScriptMessage!) {
-
     }
-    
-
-    
     
     // Webview did load
     func webViewDidFinishLoad(webView: UIWebView) {
@@ -50,13 +46,9 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         print("webview did fail load with error: \(error)")
     }
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    
-    
 }
 
 
