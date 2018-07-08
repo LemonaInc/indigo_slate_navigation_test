@@ -1,0 +1,16 @@
+{
+    "dashboard": "Dashboard",
+    "backButton": "Go Back",
+    "confirmButton": "Okay",
+    "reloadButton": "Reload",
+    "errorAlert": "Oh no! There is a problem, please try again!",
+    "loadFailedAlert": "Oh no! this video failed to load, please try again!",
+    "appDescription": "Welcome to my video player",
+    "pnw": "Pacific Northwest",
+    "videoURL": "/assets/video/ocean_sunset.mp4",
+    "westCoast": "West Coast",
+    "eastCoast": "East Coast",
+    "mountains": "Mountain Ranges",
+    "deserts": "Deserts",
+    "praries": "Praries"
+  }

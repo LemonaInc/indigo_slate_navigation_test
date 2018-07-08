@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: "NexaRustSans";
+    src:url("/assets/fonts/NexaRustSans-Black.otf");
+}
+
+@font-face {
+    font-family: "NexaRustSansHandmade";
+    src:url("/assets/fonts/NexaRustHandmade-Extended.otf");
+}
+
+@font-face {
+    font-family: "NexaRustScript";
+    src:url("/assets/fonts/NexaRustScriptL-0.otf");
+}
+
+@font-face {
+    font-family: "Woodland";
+    src:url("/assets/fonts/woodland-outline-webfont.ttf");
+}
+
+@font-face {
+    font-family: "Umbrella";
+    src:url("/assets/fonts/Umbrella Regullar.otf");
+}
+
+
+
+

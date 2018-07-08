@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NexaRustSans-Black.otf">
+            <string>NexaRustSans-Black</string>
+        </array>
+        <array key="Verdana.ttf">
+            <string>Verdana</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="indigo_slate_navigation_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunset_waves" translatesAutoresizingMaskIntoConstraints="NO" id="MQp-IS-OVN">
+                                <rect key="frame" x="-469.5" y="-166.5" width="1314" height="1000"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1000" id="cRc-RZ-wmM"/>
+                                    <constraint firstAttribute="width" constant="1314" id="fVP-7q-YvC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="956-35-oDa">
+                                <rect key="frame" x="102" y="305" width="171" height="57"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="Ztb-gD-qV0"/>
+                                    <constraint firstAttribute="width" constant="171" id="hgo-rv-Xl9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="0.1960784314" green="0.1764705882" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="tzg-Mf-G8Q" kind="show" id="uGk-N3-7d5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zP-Sh-DSS">
+                                <rect key="frame" x="-136" y="-116.5" width="646" height="200"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="WrW-NC-jFq"/>
+                                    <constraint firstAttribute="width" constant="646" id="zrU-dr-O2O"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WanderPack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usP-uf-F0I">
+                                <rect key="frame" x="117" y="23" width="141" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="9xe-OT-5g6"/>
+                                    <constraint firstAttribute="width" constant="141" id="Uds-VZ-Llv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRustSans-Black" family="Nexa Rust Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore, Travel, Repeat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-4Q-fjd">
+                                <rect key="frame" x="49.5" y="163" width="276" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="BgE-Z6-XHG"/>
+                                    <constraint firstAttribute="height" constant="41" id="QIm-M0-cFH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRustSans-Black" family="Nexa Rust Sans" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19607843137254902" green="0.1764705882352941" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="956-35-oDa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8bq-9X-jVP"/>
+                            <constraint firstItem="MQp-IS-OVN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Fr-wR-lqI"/>
+                            <constraint firstItem="MQp-IS-OVN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E6n-PD-Fko"/>
+                            <constraint firstItem="4zP-Sh-DSS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F6e-cc-w6h"/>
+                            <constraint firstItem="4mC-4Q-fjd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Plz-d8-Dlc"/>
+                            <constraint firstItem="4zP-Sh-DSS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-350" id="X36-Zi-DMd"/>
+                            <constraint firstItem="usP-uf-F0I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X74-fa-mRq"/>
+                            <constraint firstItem="956-35-oDa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iwR-iM-bc9"/>
+                            <constraint firstItem="4mC-4Q-fjd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="rxa-RF-Ggh"/>
+                            <constraint firstItem="usP-uf-F0I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-290" id="yRj-lw-KN9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74.400000000000006" y="125.4872563718141"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="4KV-BB-RCb">
+            <objects>
+                <viewController id="tzg-Mf-G8Q" customClass="WebViewController" customModule="indigo_slate_navigation_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k6O-cU-vnU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Brw-Qd-rYd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sVt-m7-slQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LU-cs-cky">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4LU-cs-cky" firstAttribute="centerY" secondItem="sVt-m7-slQ" secondAttribute="centerY" id="8ya-1h-HOc"/>
+                            <constraint firstItem="4LU-cs-cky" firstAttribute="width" secondItem="sVt-m7-slQ" secondAttribute="width" id="9oo-4B-9dC"/>
+                            <constraint firstItem="4LU-cs-cky" firstAttribute="height" secondItem="sVt-m7-slQ" secondAttribute="height" id="Av7-U4-NUf"/>
+                            <constraint firstItem="4LU-cs-cky" firstAttribute="centerX" secondItem="sVt-m7-slQ" secondAttribute="centerX" id="m9h-GM-dRO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1By-UN-trv"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="indigoTestWebView" destination="4LU-cs-cky" id="yfp-QU-NyJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWV-AZ-ZBR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sunset_waves" width="3457" height="4936"/>
+    </resources>
+</document>
